@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f0e8d7">
+  <title>BRAZA BURGUER — Feito na brasa.</title>
+  <meta name="description" content="Conheça cada camada do BRAZA. Smash burgers, fritas e milkshake em um combo completo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#menu">Ir para o cardápio</a>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Braza Burguer, início"><span class="brand-seal" aria-hidden="true">B</span><strong>BRAZA <span>BURGUER</span></strong></a>
+    <nav aria-label="Navegação principal"><a href="#stack">O BURGER</a><a href="#combo">O COMBO</a><a href="#menu">CARDÁPIO</a></nav>
+    <a class="button button-small" href="#menu">PEÇA AGORA <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="story" id="home" aria-label="Do primeiro ingrediente ao combo completo">
+      <div class="story-stage">
+        <div class="restaurant-background" aria-hidden="true"></div>
+        <div class="paper-background" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> PRENSADO NA CHAPA. FEITO NA BRASA.</p>
+          <h1>FEITO PRA<br>SER <em>BRABO.</em></h1>
+          <p>Carne no ponto. Queijo derretendo.<br>Cada camada faz a diferença.</p>
+          <div class="hero-actions"><a class="button" href="#menu">VER CARDÁPIO ↗</a><a class="button button-outline" href="#stack">POR DENTRO DO BRAZA</a></div>
+        </div>
+        <div class="assembled-frame"><img class="hero-burger" src="assets/images/braza-cutout.png" alt="Hambúrguer duplo da Braza, com brioche, queijo e cebola caramelizada" fetchpriority="high"></div>
+        <div class="scene-host" role="img" aria-label="O hambúrguer abre suas camadas. Fritas, milkshake e molhos entram na caixa Braza, que fecha ao continuar a rolagem."></div>
+        <div class="anatomy-copy"><p class="eyebrow">CADA CAMADA IMPORTA.</p><h2>AS CAMADAS.</h2></div>
+        <div class="ingredient-labels"><p>BRIOCHE <span>Dourado e tostado.</span></p><p>CEBOLA + PICLES <span>O toque agridoce.</span></p><p>SMASH + CHEDDAR <span>Crosta na carne. Queijo derretido.</span></p><p>MAIS UM SMASH <span>Porque um só é pouco.</span></p><p>MOLHO DA CASA <span>Até a última mordida.</span></p></div>
+        <div class="meal-caption combo-caption"><p class="eyebrow">O TIME COMPLETO</p><h2>COMBO<br> BRAZA.</h2><p>Burger duplo, fritas, molhos e milkshake.</p><a class="button" href="#menu">VER CARDÁPIO ↗</a></div>
+        <div class="meal-caption shake-caption"><p class="eyebrow">PRA FECHAR COM CHAVE DE OURO</p><h2>MAIS UM GOLE.</h2><p>Chocolate, cremosidade e zero pressa.</p></div>
+        <div class="scroll-hint"><span aria-hidden="true">↓</span> ROLE E DESCUBRA CADA CAMADA</div>
+      </div>
+      <span class="story-anchor" id="stack"></span>
+      <span class="story-anchor" id="combo"></span>
+    </section>
+    <section class="static-combo"><img src="assets/images/braza-meal-open.png" alt="Combo completo da Braza com burger, fritas, molhos e milkshake"><h2>COMBO BRAZA.</h2><p>Burger duplo, fritas, molhos e milkshake.</p></section>
+    <section class="lineup" id="menu" aria-labelledby="menu-title">
+      <div class="linehead"><div><p class="eyebrow">ESCOLHA SEU BRABO</p><h2 id="menu-title">O CARDÁPIO.</h2></div><p>Na chapa. Na brasa.<br>Do seu jeito.</p></div>
+      <div class="cards">
+        <article><div class="product-photo"><img src="assets/images/braza-cutout.png" alt="Braza Original" loading="lazy"></div><span class="product-number">01 / O CLÁSSICO</span><h3>BRAZA<br>ORIGINAL</h3><p>Smash duplo, cheddar, picles e molho BRAZA.</p><div class="product-order"><span>BURGER <strong>R$ 32</strong></span><button type="button" data-product="Braza Original" aria-label="Adicionar Braza Original">ADICIONAR <span aria-hidden="true">+</span></button></div></article>
+        <article><div class="product-photo"><img src="assets/images/braza-cutout.png" alt="Hambúrguer da Braza, imagem ilustrativa" loading="lazy"></div><span class="product-number">02 / O FAVORITO</span><h3>BRAZA<br>BACON</h3><p>Smash duplo, bacon e maionese defumada.</p><div class="product-order"><span>BURGER <strong>R$ 38</strong></span><button type="button" data-product="Braza Bacon" aria-label="Adicionar Braza Bacon">ADICIONAR <span aria-hidden="true">+</span></button></div></article>
+        <article><div class="product-photo"><img src="assets/images/braza-cutout.png" alt="Hambúrguer da Braza, imagem ilustrativa" loading="lazy"></div><span class="product-number">03 / SEM TIMIDEZ</span><h3>CEBOLA<br>BRUTA</h3><p>Smash duplo, cebola caramelizada e barbecue.</p><div class="product-order"><span>BURGER <strong>R$ 36</strong></span><button type="button" data-product="Cebola Bruta" aria-label="Adicionar Cebola Bruta">ADICIONAR <span aria-hidden="true">+</span></button></div></article>
+        <article><div class="product-photo photo-fries"><img src="assets/images/braza-meal-open.png" alt="Fritas douradas do combo da Braza" loading="lazy"></div><span class="product-number">04 / ACOMPANHA BEM</span><h3>FRITAS<br>DA CASA</h3><p>Douradas por fora. Macias por dentro. Do jeito que tem que ser.</p><div class="product-order"><span>INCLUSAS NO COMBO</span><a class="menu-link" href="#combo">VER COMBO ↗</a></div></article>
+        <article><div class="product-photo photo-combo"><img src="assets/images/braza-meal-open.png" alt="Combo completo da Braza na caixa" loading="lazy"></div><span class="product-number">05 / O TIME COMPLETO</span><h3>COMBO<br>BRAZA</h3><p>Burger duplo, fritas, molho da casa e milkshake. Tudo junto.</p><div class="product-order"><span>A PARTIR DE <strong>R$ 49</strong></span><button type="button" data-product="Combo Braza" aria-label="Adicionar Combo Braza">ADICIONAR <span aria-hidden="true">+</span></button></div></article>
+        <article><div class="product-photo photo-shake"><img src="assets/images/braza-meal-open.png" alt="Milkshake de chocolate com chantilly e biscoitos" loading="lazy"></div><span class="product-number">06 / FECHA COM CHAVE DE OURO</span><h3>SHAKE DE<br>CHOCOLATE</h3><p>Gelado, cremoso e com aquele toque de chocolate.</p><div class="product-order"><span>INCLUSO NO COMBO</span><a class="menu-link" href="#combo">VER COMBO ↗</a></div></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="logo" href="#home"><span class="brand-seal" aria-hidden="true">B</span><strong>BRAZA <span>BURGUER</span></strong></a><p>CARNE, QUEIJO E ZERO FRESCURA.</p><a href="#home">VOLTAR AO TOPO ↑</a></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
